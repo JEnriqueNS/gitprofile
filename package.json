@@ -1,0 +1,26 @@
+{
+  "name": "profile3",
+  "version": "1.0.0",
+  "description": "Profile pour montrer mon information",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEnriqueNS/gitprofile.git"
+  },
+  "keywords": [
+    "mon",
+    "profile"
+  ],
+  "author": "Jesus Enrique",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JEnriqueNS/gitprofile/issues"
+  },
+  "homepage": "https://github.com/JEnriqueNS/gitprofile#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

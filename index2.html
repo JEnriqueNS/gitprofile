@@ -3,18 +3,20 @@
 <HEAD>
  <title>Mon Profile</title>
  <meta charset="utf-8">
- 
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </HEAD>
 <body id="body">
 <div class="row">
-<section class="col-sm-3">
+<section class="col-sm-3" id="sec1">
     <article>
         <div class="text-center">
             <img src="img/me.jpg" class="img-circle img-thumbnail" alt="">
             <h1 class="nom">Nava Sanchez Jesus Enrique</h1>
             <h3 class="filiere">Développeur de logiciel</h3>
+            <button id="modificar">click </button>
+  <h3 id="jour">Bonjour</h3>
         </div><hr><br>
         <table>
             <tr><td class="td_title"><p class="titleG"><strong>CONTACT</strong></p></td></tr>
@@ -33,7 +35,7 @@
        
     </article>
 </section>
-<section class="col-sm-9">
+<section class="col-sm-9" id="sec2">
    <div class="content">
        <h2>FORMATION</h2>
           <hr class="m_hr">
@@ -83,32 +85,48 @@
           <!--///////////////////////////////////////////////////////////////// -->
           <h2>LANGAGES DE PROGRAMMATION</h2>
           <hr class="m_hr">
-          <table class="table_formation">
+          <table class="table_formation2">
               <tr>
               <td class="td_egal">
                   <ul class="ul_langages">
-                      <li>C# <table class="C"><td class="C1"></td><td class="C2"></td></table></div></li>
-                      <li>PHP <table class="PHP"><td class="PHP1"></td><td class="PHP2"></td></table></div></li>
-                      <li>MYSQL<table class="MYSQL"><td class="MYSQL1"></td><td class="MYSQL2"></td></table></div></li>
-                      <li>JAVASCRIPT<table class="JAVAS"><td class="JAVAS1"></td><td class="JAVAS2"></td></table></div></li>
+                      <li>C# <table class="C"><td class="C1" id="colC"></td><td class="C2"></td></table></div></li>
+                      <li>PHP <table class="PHP"><td class="PHP1" id="colC1"></td><td class="PHP2"></td></table></div></li>
+                      <li>MYSQL<table class="MYSQL"><td class="MYSQL1" id="colC2"></td><td class="MYSQL2"></td></table></div></li>
+                      <li>JAVASCRIPT<table class="JAVAS"><td class="JAVAS1" id="colC3"></td><td class="JAVAS2"></td></table></div></li>
                   </ul>
               </td>
               <td class="td_egal">
                   <ul class="ul_langages">
-                      <li>HTML5 <table class="HTML"><td class="HTML1"></td><td class="HTML2"></td></table></div></li>
-                      <li>CSS3<table class="CSS"><td class="CSS1"></td><td class="CSS2"></td></table></div></li>
-                      <li>SQL SERVER<table class="SQL"><td class="SQL1"></td><td class="SQL2"></td></table></div></li>
-                      <li>JAVA<table class="JAVA"><td class="JAVA1"></td><td class="JAVA2"></td></table></div></li>
+                      <li>HTML5 <table class="HTML"><td class="HTML1" id="colC4"></td><td class="HTML2"></td></table></div></li>
+                      <li>CSS3<table class="CSS"><td class="CSS1" id="colC5"></td><td class="CSS2"></td></table></div></li>
+                      <li>SQL SERVER<table class="SQL"><td class="SQL1" id="colC6"></td><td class="SQL2"></td></table></div></li>
+                      <li>JAVA<table class="JAVA"><td class="JAVA1" id="colC7"></td><td class="JAVA2"></td></table></div></li>
                   </ul>
               </td>
               </tr>
           </table>
           <h2>LANGAGES DE PROGRAMMATION</h2>
           <hr class="m_hr">
-          <ul class="ul_outils">
-              <li>GIT</li>
-              <li>Netbeans</li>
-          </ul>
+          <table class="table_formation2">
+              <tr>
+              <td class="td_egal">
+                  <ul class="ul_langages2">
+                      <li>PROGRAMMATION WEB <table class="PW"><td class="PW1" id="colC8"></td><td class="PW2"></td></table></div></li>
+                      <li>CONCEPTION DES PROGRAMMES <table class="CP"><td class="CP1" id="colC9"></td><td class="CP2"></td></table></div></li>
+                      <li>STRUCTURES DE DONNES<table class="SD"><td class="SD1" id="colC10"></td><td class="SD2"></td></table></div></li>
+                      <li>GITHUB<table class="GH"><td class="GH1" id="colC11"></td><td class="GH2"></td></table></div></li>
+                  </ul>
+              </td>
+              <td class="td_egal">
+                  <ul class="ul_langages2">
+                      <li>APPLICATION DE BUREAU <table class="AB"><td class="AB1" id="colC12"></td><td class="AB2"></td></table></div></li>
+                      <li>GESTION DE BASES DE DONNES SQL<table class="GBD"><td class="GBD1" id="colC13"></td><td class="GBD2"></td></table></div></li>
+                      <li>DÉVELOPPEMENT D'APPLICATIONS ANDROID<table class="DA"><td class="DA1" id="colC14"></td><td class="DA2"></td></table></div></li>
+                      <li>M.V.C. DANS (C#,PHP)<table class="MVC"><td class="MVC1" id="colC15"></td><td class="MVC2"></td></table></div></li>
+                  </ul>
+              </td>
+              </tr>
+          </table>
    
     </div>
    </section>

@@ -1,285 +1,914 @@
-.row {
-  margin-right: -15px;
-  margin-left: -15px; }
+@media (min-width: 375px) and (max-width: 600px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -10px; }
 
-.col-sm-3 {
-  width: 35%;
-  background-color: #dcdcdc;
-  float: left; }
+  .col-sm-3 {
+    width: 98%;
+    background-color: #dcdcdc; }
 
-.col-sm-9 {
-  width: 60%;
-  float: right; }
+  .col-sm-4 {
+    width: 98%;
+    color: #636365;
+    background-color: #dcdcdc; }
 
-.col-xs-6 {
-  width: 50%; }
+  .col-sm-9 {
+    width: 85%;
+    padding: 25px; }
 
-.list-group {
-  padding-left: 0;
-  magin-bottom: 20px; }
+  .col-sm-8 {
+    width: 85%;
+    padding: 25px;
+    color: #fff;
+    background-color: #636365; }
 
-.list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd; }
-
-.text-center {
-  text-align: center; }
-
-.text-muted {
-  color: #777; }
-
-.text-right {
-  text-align: right; }
-
-.pull-left {
-  padding-left: 10px; }
-
-.img-circle {
-  border-radius: 50%; }
-
-.img-thumbnail {
-  display: inline-block;
-  max-width: 50%;
-  height: auto;
-  padding: 2px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd; }
-
-.nom {
-  font-size: 35px; }
-
-.filiere {
-  font-size: 25px; }
-
-.icon {
-  width: px;
-  float: left; }
-
-table {
-  width: 100%;
-  padding: 25px; }
-  table tr td {
+  .col-xs-6 {
     width: 50%; }
 
-.titleG {
-  color: #777;
-  font-weight: bold;
-  font-size: 25px; }
+  .list-group {
+    padding-left: 0;
+    magin-bottom: 20px; }
 
-.title {
-  font-weight: bold;
-  font-size: 20px; }
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd; }
 
-.td_title {
-  width: 100%; }
+  .text-center {
+    text-align: center; }
 
-.group_information {
-  display: inline-block;
-  margin-bottom: 0;
-  vertical-align: middle; }
+  .text-muted {
+    color: #777; }
 
-.content {
-  display: block; }
+  .text-right {
+    text-align: right; }
 
-.m_hr {
-  color: #6198b9;
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 80%;
-  border-width: 3px; }
+  .pull-left {
+    padding-left: 10px; }
 
-.table_formation {
-  width: 100%;
-  border-spacing: 2px;
-  padding-left: 25px; }
+  .img-circle {
+    border-radius: 50%; }
 
-.td_petite {
-  width: 30%; }
+  .img-thumbnail {
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    padding: 2px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd; }
 
-.td_grand {
-  width: 70%; }
+  .nom {
+    font-size: 25px; }
 
-.td_egal {
-  width: 50%; }
+  .filiere {
+    font-size: 20px; }
 
-.m_p {
-  font-weight: bold;
-  font-size: 25px; }
+  .icon {
+    width: px;
+    float: left; }
 
-.m_p2 {
-  font-weight: bold;
-  font-size: 20px; }
+  table {
+    width: 100%;
+    padding: 25px; }
+    table tr td {
+      width: 75px; }
+      table tr td p {
+        font-size: 15px; }
 
-.ul_langages {
-  list-style-type: circle; }
-  .ul_langages li {
-    padding-bottom: 10px; }
+  .titleG {
+    color: #777;
+    font-weight: bold;
+    font-size: 15px; }
 
-.C {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .title {
+    font-weight: bold;
+    font-size: 15px; }
 
-.C1 {
-  background-color: blue;
-  width: 85%;
-  heigth: 10px;
-  padding: 7px; }
+  .td_title {
+    width: 100%; }
 
-.C2 {
-  width: 15%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .group_information {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle; }
 
-.PHP {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .content {
+    display: block; }
 
-.PHP1 {
-  background-color: blue;
-  width: 75%;
-  heigth: 10px;
-  padding: 7px; }
+  .m_hr {
+    color: #6198b9;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    border-width: 3px; }
 
-.PHP2 {
-  width: 25%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .table_formation {
+    width: 100%;
+    border-spacing: 2px;
+    padding: 0px;
+    padding-left: 25px; }
 
-.MYSQL {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .table_formation2 {
+    width: 100%;
+    boder-spacing: 0px;
+    padding: 0px; }
 
-.MYSQL1 {
-  background-color: blue;
-  width: 80%;
-  heigth: 10px;
-  padding: 7px; }
+  .td_petite {
+    width: 30%; }
 
-.MYSQL2 {
-  width: 20%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .td_grand {
+    width: 100%;
+    padding-left: 25px; }
 
-.JAVAS {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .td_egal {
+    width: 50%; }
 
-.JAVAS1 {
-  background-color: blue;
-  width: 60%;
-  heigth: 10px;
-  padding: 7px; }
+  .m_p {
+    font-weight: bold;
+    font-size: 15px; }
 
-.JAVAS2 {
-  width: 40%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .m_p2 {
+    font-weight: bold;
+    font-size: 10px; }
 
-.HTML {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .ul_langages {
+    list-style-type: circle;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-inline-start: 10px; }
+    .ul_langages li {
+      font-size: 15px;
+      padding-bottom: 15px; }
 
-.HTML1 {
-  background-color: blue;
-  width: 80%;
-  heigth: 10px;
-  padding: 7px; }
+  .ul_langages2 {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-inline-start: 10px; }
+    .ul_langages2 li {
+      padding-bottom: 15px;
+      font-size: 10px; }
 
-.HTML2 {
-  width: 20%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .C {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
 
-.CSS {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .C1 {
+    background-color: blue;
+    width: 85%;
+    heigth: 10px;
+    padding: 7px; }
 
-.CSS1 {
-  background-color: blue;
-  width: 83%;
-  heigth: 10px;
-  padding: 7px; }
+  .C2 {
+    width: 15%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
 
-.CSS2 {
-  width: 17%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .PHP {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
 
-.SQL {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .PHP1 {
+    background-color: blue;
+    width: 75%;
+    heigth: 10px;
+    padding: 7px; }
 
-.SQL1 {
-  background-color: blue;
-  width: 50%;
-  heigth: 10px;
-  padding: 7px; }
+  .PHP2 {
+    width: 25%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
 
-.SQL2 {
-  width: 50%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .MYSQL {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
 
-.JAVA {
-  heigth: 10px;
-  float: right;
-  width: 50%;
-  padding: 0px;
-  border-spacing: 0px; }
+  .MYSQL1 {
+    background-color: blue;
+    width: 80%;
+    heigth: 10px;
+    padding: 7px; }
 
-.JAVA1 {
-  background-color: blue;
-  width: 55%;
-  heigth: 10px;
-  padding: 7px; }
+  .MYSQL2 {
+    width: 20%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
 
-.JAVA2 {
-  width: 45%;
-  heigth: 5px;
-  border-right: black 3px solid;
-  border-top: black 3px solid;
-  border-bottom: black 3px solid; }
+  .JAVAS {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
 
+  .JAVAS1 {
+    background-color: blue;
+    width: 60%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .JAVAS2 {
+    width: 40%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .HTML {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .HTML1 {
+    background-color: blue;
+    width: 80%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .HTML2 {
+    width: 20%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .CSS {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .CSS1 {
+    background-color: blue;
+    width: 83%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .CSS2 {
+    width: 17%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .SQL {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .SQL1 {
+    background-color: blue;
+    width: 50%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .SQL2 {
+    width: 50%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .JAVA {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .JAVA1 {
+    background-color: blue;
+    width: 55%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .JAVA2 {
+    width: 45%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .PW {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .PW1 {
+    background-color: blue;
+    width: 90%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .PW2 {
+    width: 10%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .CP {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .CP1 {
+    background-color: blue;
+    width: 70%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .CP2 {
+    width: 30%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .SD {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .SD1 {
+    background-color: blue;
+    width: 80%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .SD2 {
+    width: 20%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .GH {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .GH1 {
+    background-color: blue;
+    width: 35%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .GH2 {
+    width: 65%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .AB {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .AB1 {
+    background-color: blue;
+    width: 85%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .AB2 {
+    width: 15%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .GBD {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .GBD1 {
+    background-color: blue;
+    width: 90%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .GBD2 {
+    width: 10%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .DA {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .DA1 {
+    background-color: blue;
+    width: 40%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .DA2 {
+    width: 60%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .MVC {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .MVC1 {
+    background-color: blue;
+    width: 60%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .MVC2 {
+    width: 40%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; } }
+@media (min-width: 960px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; }
+
+  .col-sm-3 {
+    width: 35%;
+    background-color: #dcdcdc;
+    float: left; }
+
+  .col-sm-4 {
+    width: 35%;
+    float: left;
+    color: #636365;
+    background-color: #dcdcdc; }
+
+  .col-sm-9 {
+    width: 60%;
+    float: right; }
+
+  .col-sm-8 {
+    width: 60%;
+    float: right;
+    color: #fff;
+    background-color: #636365; }
+
+  .col-xs-6 {
+    width: 50%; }
+
+  .list-group {
+    padding-left: 0;
+    magin-bottom: 20px; }
+
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd; }
+
+  .text-center {
+    text-align: center; }
+
+  .text-muted {
+    color: #777; }
+
+  .text-right {
+    text-align: right; }
+
+  .pull-left {
+    padding-left: 10px; }
+
+  .img-circle {
+    border-radius: 50%; }
+
+  .img-thumbnail {
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    padding: 2px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd; }
+
+  .nom {
+    font-size: 35px; }
+
+  .filiere {
+    font-size: 25px; }
+
+  .icon {
+    width: px;
+    float: left; }
+
+  table {
+    width: 100%;
+    padding: 25px; }
+    table tr td {
+      width: 50%; }
+
+  .titleG {
+    color: #777;
+    font-weight: bold;
+    font-size: 25px; }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px; }
+
+  .td_title {
+    width: 100%; }
+
+  .group_information {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle; }
+
+  .content {
+    display: block; }
+
+  .m_hr {
+    color: #6198b9;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    border-width: 3px; }
+
+  .table_formation {
+    width: 100%;
+    border-spacing: 2px;
+    padding-left: 25px; }
+
+  .table_formation2 {
+    width: 100%;
+    border-spacing: 2px;
+    padding-left: 25px; }
+
+  .td_petite {
+    width: 30%; }
+
+  .td_grand {
+    width: 70%; }
+
+  .td_egal {
+    width: 50%; }
+
+  .m_p {
+    font-weight: bold;
+    font-size: 25px; }
+
+  .m_p2 {
+    font-weight: bold;
+    font-size: 20px; }
+
+  .ul_langages {
+    list-style-type: circle; }
+    .ul_langages li {
+      padding-bottom: 10px; }
+
+  .ul_langages2 li {
+    padding-bottom: 15px; }
+
+  .C {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .C1 {
+    background-color: blue;
+    width: 85%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .C2 {
+    width: 15%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .PHP {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .PHP1 {
+    background-color: blue;
+    width: 75%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .PHP2 {
+    width: 25%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .MYSQL {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .MYSQL1 {
+    background-color: blue;
+    width: 80%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .MYSQL2 {
+    width: 20%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .JAVAS {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .JAVAS1 {
+    background-color: blue;
+    width: 60%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .JAVAS2 {
+    width: 40%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .HTML {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .HTML1 {
+    background-color: blue;
+    width: 80%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .HTML2 {
+    width: 20%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .CSS {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .CSS1 {
+    background-color: blue;
+    width: 83%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .CSS2 {
+    width: 17%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .SQL {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .SQL1 {
+    background-color: blue;
+    width: 50%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .SQL2 {
+    width: 50%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .JAVA {
+    heigth: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .JAVA1 {
+    background-color: blue;
+    width: 55%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .JAVA2 {
+    width: 45%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .PW {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .PW1 {
+    background-color: blue;
+    width: 90%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .PW2 {
+    width: 10%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .CP {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .CP1 {
+    background-color: blue;
+    width: 70%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .CP2 {
+    width: 30%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .SD {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .SD1 {
+    background-color: blue;
+    width: 80%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .SD2 {
+    width: 20%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .GH {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .GH1 {
+    background-color: blue;
+    width: 35%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .GH2 {
+    width: 65%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .AB {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .AB1 {
+    background-color: blue;
+    width: 85%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .AB2 {
+    width: 15%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .GBD {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .GBD1 {
+    background-color: blue;
+    width: 90%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .GBD2 {
+    width: 10%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .DA {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .DA1 {
+    background-color: blue;
+    width: 40%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .DA2 {
+    width: 60%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; }
+
+  .MVC {
+    heigth: 10px;
+    width: 50%;
+    padding: 0px;
+    border-spacing: 0px; }
+
+  .MVC1 {
+    background-color: blue;
+    width: 60%;
+    heigth: 10px;
+    padding: 7px; }
+
+  .MVC2 {
+    width: 40%;
+    heigth: 5px;
+    border-right: black 3px solid;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid; } }
 body {
   background-color: #fff; }
 
